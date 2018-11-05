@@ -1,0 +1,49 @@
+// @name Resume
+// @description All resume styles
+
+dl {
+    margin-bottom: $spacer;
+}
+
+dt, dd {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: $spacer;
+}
+
+@media(min-width: 640px) {
+    dt, dd {
+        margin-bottom: 60px;
+    }
+
+    .experience {
+        dt {
+            width: 50%;
+            padding-right: ($spacer * 2);
+        }
+        dd {
+            width: 50%;
+        }
+    }
+
+    .clients {
+        dt, dd {
+            width: 50%;
+        }
+    }
+}
+
+.title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.company {
+    font-size: 1.0rem;
+    color:#FF0100;
+}
+
+.period {
+    font-size: 1.0rem;
+}

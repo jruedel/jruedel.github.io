@@ -1,0 +1,37 @@
+<header>
+    <div class="container">
+        <div class="intro">
+            
+            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Desktop-HD" transform="translate(-50.000000, -50.000000)">
+                <g id="Logo" transform="translate(50.000000, 50.000000)">
+                <path d="M25,50 C38.8071187,50 50,38.8071187 50,25 C50,11.1928813 38.8071187,0 25,0 C11.1928813,0 0,11.1928813 0,25 C0,38.8071187 11.1928813,50 25,50 Z" id="Background" fill="#FF0100"></path>
+                <text class="logotext" fill="#FFFFFF">
+                    <tspan x="14.58" y="32">JR</tspan>
+                </text>
+                </g>
+                </g>
+                </g>
+            </svg>
+
+            <p class="intro__main serif">
+                Moin. Ich bin <span>Joscha Rüdel</span>.<br>
+                Technischer Berater, Projektmanager & Entwickler.</p>
+            <p class="intro__post">{{ site.location }}</p>
+        </div>
+
+        <div class="social">
+            {{ if site.xing_link }}
+                <a href="{{ site.xing_link }}" title="Xing me" target="_blank"><i class="fa fa-xing fa-2x" aria-hidden="true"></i></a>
+            {{ endif }}
+            {{ if site.linkedin_link }}
+                <a href="{{ site.linkedin_link }}" title="LinkedIn me" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+            {{ endif }}
+            {{ if github_link }}
+                <!-- <a href="{{ site.github_link }}" title="Star me" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> -->
+            {{ endif }}
+        </div>
+
+    </div>
+</header>

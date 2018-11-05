@@ -1,0 +1,17 @@
+# Jekyll Resume Theme
+
+# Site settings
+title: jruedel.io - Joscha Rüdel.
+description: jruedel's private portfolio.
+baseurl: ""
+url: ""
+name: Joscha Rüdel
+job: Technical Consultant
+location: Hamburg, Germany
+languages: HTML, CSS and Javascript
+# github_link: https://github.com/jruedel
+xing_link: https://www.xing.com/profile/Joscha_Ruedel
+linkedin_link: https://de.linkedin.com/in/jruedel
+
+# Build settings
+markdown: kramdown
