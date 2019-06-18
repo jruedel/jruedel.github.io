@@ -24,11 +24,23 @@ header {
         font-size: 1.8rem;
         line-height: 1.2;
         font-weight: bold;
-        margin: 10px 0 20px;
+        margin: 30px 0 2px;
 
         @media(min-width: 640px) {
             font-size: 2.0rem;
             max-width: 60%;
+        }
+    }
+
+    &__mainer {
+        font-size: 1.2rem;
+        line-height: 1.2;
+        font-weight: bold;
+        margin: 0 0 20px;
+
+        @media(min-width: 640px) {
+            font-size: 1.4rem;
+            max-width: 90%;
         }
     }
 }
